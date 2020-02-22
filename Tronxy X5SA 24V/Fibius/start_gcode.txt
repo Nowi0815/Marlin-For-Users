@@ -1,0 +1,22 @@
+﻿G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+;*** Heizen *
+M104 S0 ?T0 ; aufheizen starten Hotend
+M140 S{material_bed_temperature} ; aufheizen starten Bett
+G28 X0 Y0 ;move X/Y to min endstops
+G28 Z0 ;move Z to min endstops
+M190 S{material_bed_temperature} ; Bett aufheizen, warten
+G29
+M104 S{material_print_temperature} ?T0 ; aufheizen starten Hotend
+M109 S{material_print_temperature} ?T0 ; Hotend aufheizen, warten
+;*** fertig mit heizen *
+G0 X5 Y10 F4500 ; Go to front
+G0 Z0.2 ; Drop to bed
+G92 E0 ; zero the extruded length
+G1 X40 E15 F500 ; Extrude 15mm of filament in a 4cm line
+G92 E0 ; zero the extruded length
+G1 Z1;
+G90 ;absolute positioning
+G5
