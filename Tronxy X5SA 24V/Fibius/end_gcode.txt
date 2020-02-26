@@ -7,4 +7,3 @@ G28 X0 Y0 ; move X/Y to min endstops, so the head is out of the way
 M84 ; steppers off
 M107 ; Fans offs
 G90
-M300 P300 S4000
