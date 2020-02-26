@@ -19,4 +19,3 @@ G1 X40 E15 F500 ; Extrude 15mm of filament in a 4cm line
 G92 E0 ; zero the extruded length
 G1 Z1;
 G90 ;absolute positioning
-G5
