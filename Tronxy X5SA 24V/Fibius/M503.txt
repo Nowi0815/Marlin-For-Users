@@ -5,7 +5,7 @@ echo:; Filament settings: Disabled
 echo:  M200 D1.75
 echo:  M200 D0
 echo:; Steps per unit:
-echo: M92 X80.00 Y80.00 Z400.00 E94.50
+echo: M92 X80.26 Y80.21 Z400.53 E94.50
 echo:; Maximum feedrates (units/s):
 echo:  M203 X300.00 Y300.00 Z25.00 E70.00
 echo:; Maximum Acceleration (units/s2):
@@ -18,37 +18,37 @@ echo:; Home offset:
 echo:  M206 X0.00 Y0.00 Z0.00
 echo:; Auto Bed Leveling:
 echo:  M420 S0 Z0.00
-echo:  G29 W I0 J0 Z-1.06250
-echo:  G29 W I1 J0 Z-0.97250
-echo:  G29 W I2 J0 Z-1.00250
-echo:  G29 W I3 J0 Z-1.11000
-echo:  G29 W I4 J0 Z-1.27000
-echo:  G29 W I0 J1 Z-0.44000
-echo:  G29 W I1 J1 Z-0.37250
-echo:  G29 W I2 J1 Z-0.47250
-echo:  G29 W I3 J1 Z-0.59000
-echo:  G29 W I4 J1 Z-0.72250
-echo:  G29 W I0 J2 Z-0.06500
-echo:  G29 W I1 J2 Z0.01250
-echo:  G29 W I2 J2 Z-0.07500
-echo:  G29 W I3 J2 Z-0.21500
-echo:  G29 W I4 J2 Z-0.32500
-echo:  G29 W I0 J3 Z0.16000
-echo:  G29 W I1 J3 Z0.23500
-echo:  G29 W I2 J3 Z0.12000
-echo:  G29 W I3 J3 Z0.00250
-echo:  G29 W I4 J3 Z-0.15750
-echo:  G29 W I0 J4 Z0.06000
-echo:  G29 W I1 J4 Z0.22750
-echo:  G29 W I2 J4 Z0.06500
-echo:  G29 W I3 J4 Z-0.12750
-echo:  G29 W I4 J4 Z-0.31500
+echo:  G29 W I0 J0 Z-0.01327
+echo:  G29 W I1 J0 Z0.07162
+echo:  G29 W I2 J0 Z0.21892
+echo:  G29 W I3 J0 Z0.21892
+echo:  G29 W I4 J0 Z0.17898
+echo:  G29 W I0 J1 Z0.21393
+echo:  G29 W I1 J1 Z0.31380
+echo:  G29 W I2 J1 Z0.41866
+echo:  G29 W I3 J1 Z0.43863
+echo:  G29 W I4 J1 Z0.44862
+echo:  G29 W I0 J2 Z0.35874
+echo:  G29 W I1 J2 Z0.43364
+echo:  G29 W I2 J2 Z0.55098
+echo:  G29 W I3 J2 Z0.54349
+echo:  G29 W I4 J2 Z0.55098
+echo:  G29 W I0 J3 Z0.31629
+echo:  G29 W I1 J3 Z0.38371
+echo:  G29 W I2 J3 Z0.47858
+echo:  G29 W I3 J3 Z0.45611
+echo:  G29 W I4 J3 Z0.43863
+echo:  G29 W I0 J4 Z0.14902
+echo:  G29 W I1 J4 Z0.20644
+echo:  G29 W I2 J4 Z0.26886
+echo:  G29 W I3 J4 Z0.22392
+echo:  G29 W I4 J4 Z0.12155
 echo:; Endstop adjustment:
 echo:  M666 Z0.00
 echo:; PID settings:
 echo:  M301 P33.02 I3.56 D76.47
 echo:; Z-Probe Offset (mm):
-echo:  M851 X-30.00 Y-18.00 Z-2.50
+echo:  M851 X-45.00 Y-10.00 Z-2.48
 echo:; Stepper driver current:
 echo:  M906 X800 Y800 Z800
 echo:  M906 I1 Z800
