@@ -1,0 +1,31 @@
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/Marlin
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/.pio/libdeps/LPC1769/SailfishLCD
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/.pio/libdeps/LPC1769/Adafruit NeoPixel
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/.pio/libdeps/LPC1769/TMCStepper_ID5513/src
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/.pio/libdeps/LPC1769/U8glib-HAL_ID1932/src
+-I/Users/mgr/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src
+-I/Users/mgr/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/Marlin/src/HAL/LPC1768/include
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/Marlin/src/HAL/LPC1768/u8g
+-I/Users/mgr/.platformio/packages/framework-arduino-lpc176x/cores/arduino
+-I/Users/mgr/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include
+-I/Users/mgr/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib
+-I/Users/mgr/.platformio/packages/framework-arduino-lpc176x/system/lpc176x
+-I/Users/mgr/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include
+-I/Users/mgr/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1
+-I/Users/mgr/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi
+-I/Users/mgr/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include
+-I/Users/mgr/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed
+-I/Users/mgr/.platformio/packages/tool-unity
+-I/Users/mgr/Documents/GitHub/Marlin-For-Users/Anycubic I3 Mega/Nowi/include
+-DLPC176X_FRAMEWORK
+-DTARGET_LPC1768
+-DF_CPU=120000000L
+-DMCU_LPC1769
+-DPIO_PLATFORM_VERSION=1001UL
+-DPIO_FRAMEWORK_VERSION=2002UL
+-DPLATFORMIO=40301
+-DU8G_HAL_LINKS
+-D__MARLIN_FIRMWARE__
+-DARDUINO_ARCH_LPC176X
+-DARDUINOLPC=10805
